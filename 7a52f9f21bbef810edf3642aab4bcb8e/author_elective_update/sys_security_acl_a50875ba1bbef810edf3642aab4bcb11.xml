@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>cmdb_ci.x_snc_datasilosci_fulfiller_whitelist</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-28 14:12:16</sys_created_on>
+        <sys_id>a50875ba1bbef810edf3642aab4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci.x_snc_datasilosci_fulfiller_whitelist</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_update_name>sys_security_acl_a50875ba1bbef810edf3642aab4bcb11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-28 14:12:16</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</application>
+        <file_path/>
+        <instance_id>6b513d92dbe2fc100b9d21c4059619eb</instance_id>
+        <instance_name>wildgrubedevparis</instance_name>
+        <name>sys_security_acl_a50875ba1bbef810edf3642aab4bcb11</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description/>
+        <name>cmdb_ci.x_snc_datasilosci_fulfiller_whitelist</name>
+        <operation display_value="read">read</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-28 14:12:16</sys_created_on>
+        <sys_id>a50875ba1bbef810edf3642aab4bcb11</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci.x_snc_datasilosci_fulfiller_whitelist</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_update_name>sys_security_acl_a50875ba1bbef810edf3642aab4bcb11</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-28 14:12:16</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>1486748229</payload_hash>
+        <record_name>cmdb_ci.x_snc_datasilosci_fulfiller_whitelist</record_name>
+        <reverted_from/>
+        <source>2470e75fdb3ebc104647dad1f39619a6</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-30 11:06:14</sys_created_on>
+        <sys_id>3b9027dfdb3ebc104647dad1f39619e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c366225930000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-30 11:06:14</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>779027df313ebc10b6673c0d970645e5</update_guid>
+        <update_guid_history>779027df313ebc10b6673c0d970645e5:0,18fb4b93d8b2bc10e52e07feebe69419:-1102002262,210875ba24bef810146783bb5011f415:89929859</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-30 11:25:15</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>3307d310c3d34b5e8b4c12cab3e60fb9</sys_id>
+        <sys_metadata>a50875ba1bbef810edf3642aab4bcb11</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci.x_snc_datasilosci_fulfiller_whitelist</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_parent display_value="">845e8f5b1bb2bc10edf3642aab4bcb9e</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">05511f61792842c48230507153c77c41</sys_scope_delete>
+        <sys_update_name>sys_security_acl_a50875ba1bbef810edf3642aab4bcb11</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_a50875ba1bbef810edf3642aab4bcb11">3b9027dfdb3ebc104647dad1f39619e5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-09-30 11:25:15</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

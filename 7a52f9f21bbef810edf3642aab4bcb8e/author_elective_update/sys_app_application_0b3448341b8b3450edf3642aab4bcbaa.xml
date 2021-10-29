@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description>DataSilos Plugin for the CMDB</description>
+        <device_type>browser</device_type>
+        <hint>DataSilos Plugin for the CMDB</hint>
+        <name/>
+        <order>100</order>
+        <roles/>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-04 10:54:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0b3448341b8b3450edf3642aab4bcbaa</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataSilosCI</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_update_name>sys_app_application_0b3448341b8b3450edf3642aab4bcbaa</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-04 10:54:13</sys_updated_on>
+        <title>DataSilosCI</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</application>
+        <file_path/>
+        <instance_id>6b513d92dbe2fc100b9d21c4059619eb</instance_id>
+        <instance_name>wildgrubedevparis</instance_name>
+        <name>sys_app_application_0b3448341b8b3450edf3642aab4bcbaa</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description>DataSilos Plugin for the CMDB</description><device_type>browser</device_type><hint>DataSilos Plugin for the CMDB</hint><name/><order>100</order><roles/><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-10-04 10:54:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0b3448341b8b3450edf3642aab4bcbaa</sys_id><sys_mod_count>0</sys_mod_count><sys_name>DataSilosCI</sys_name><sys_overrides/><sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package><sys_policy/><sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope><sys_update_name>sys_app_application_0b3448341b8b3450edf3642aab4bcbaa</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-10-04 10:54:13</sys_updated_on><title>DataSilosCI</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>-1071507670</payload_hash>
+        <record_name>DataSilosCI</record_name>
+        <reverted_from/>
+        <source>4f3a46ea1b627010edf3642aab4bcb4a</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-04 10:54:13</sys_created_on>
+        <sys_id>0b3448341b8b3450edf3642aab4bcbd3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17c4af097720000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-04 10:54:13</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>4f344834178b3450edb03d2d856375d2</update_guid>
+        <update_guid_history>4f344834178b3450edb03d2d856375d2:-1071507670</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="DataSilosCI">b664c8341b8b3450edf3642aab4bcb74</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-10-04 10:55:01</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>170606287be14cb083c6c37281816100</sys_id>
+        <sys_metadata>0b3448341b8b3450edf3642aab4bcbaa</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataSilosCI</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">05511f61792842c48230507153c77c41</sys_scope_delete>
+        <sys_update_name>sys_app_application_0b3448341b8b3450edf3642aab4bcbaa</sys_update_name>
+        <sys_update_version display_value="sys_app_application_0b3448341b8b3450edf3642aab4bcbaa">0b3448341b8b3450edf3642aab4bcbd3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-10-04 10:55:01</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
