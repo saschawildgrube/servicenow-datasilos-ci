@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="cmdb_ci" version="2" view="datasilos">
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cmdb_ci</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-11 16:02:46</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0947f4851bb7bc50edf3642aab4bcb46</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci</sys_name>
+            <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+            <sys_update_name>sys_ui_list_cmdb_ci_datasilos</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-11 16:02:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="DataSilos" name="datasilos">268b1d0adb849090ba15a35305961902</view>
+            <view_name/>
+        </sys_ui_list>
+        <sys_update_version action="INSERT_OR_UPDATE">
+            <action>INSERT_OR_UPDATE</action>
+            <application display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</application>
+            <file_path/>
+            <instance_id>6b513d92dbe2fc100b9d21c4059619eb</instance_id>
+            <instance_name>wildgrubedevparis</instance_name>
+            <name>sys_ui_list_cmdb_ci_datasilos</name>
+            <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_ci" version="2" view="datasilos"><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>cmdb_ci</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-11 16:02:46</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0947f4851bb7bc50edf3642aab4bcb46</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_ci</sys_name><sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package><sys_policy/><sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope><sys_update_name>sys_ui_list_cmdb_ci_datasilos</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-11 16:02:46</sys_updated_on><sys_user/><view display_value="DataSilos" name="datasilos">268b1d0adb849090ba15a35305961902</view><view_name/></sys_ui_list><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>cmdb_ci</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-11 16:05:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8fc77c851bb7bc50edf3642aab4bcb09</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_ci</sys_name><sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">9635b5da1b223010edf3642aab4bcbcb</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_cmdb_ci_datasilos</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-11 16:05:06</sys_updated_on><sys_user/><view display_value="DataSilos" name="datasilos">268b1d0adb849090ba15a35305961902</view><view_name/></sys_ui_list><sys_ui_list action="INSERT_OR_UPDATE"><average_value>false</average_value><element/><max_value>false</max_value><min_value>false</min_value><name>cmdb_ci</name><parent/><position/><relationship/><sum>false</sum><sys_class_name>sys_ui_list</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-11-11 16:05:06</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>8fc77c851bb7bc50edf3642aab4bcb09</sys_id><sys_mod_count>0</sys_mod_count><sys_name>cmdb_ci</sys_name><sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">9635b5da1b223010edf3642aab4bcbcb</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_list_cmdb_ci_datasilos</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-11-11 16:05:06</sys_updated_on><sys_user/><view display_value="DataSilos" name="datasilos">268b1d0adb849090ba15a35305961902</view><view_name/></sys_ui_list></sys_ui_list></record_update>]]></payload>
+            <payload_hash>-747168666</payload_hash>
+            <record_name>Configuration Item</record_name>
+            <reverted_from/>
+            <source>222c80221b133010edf3642aab4bcb48</source>
+            <source_table>sys_upgrade_history</source_table>
+            <state>current</state>
+            <sys_created_by/>
+            <sys_created_on>2021-10-22 08:13:56</sys_created_on>
+            <sys_id>a72830c51bb7bc50edf3642aab4bcbdf</sys_id>
+            <sys_mod_count/>
+            <sys_recorded_at>17ca7104da00000000</sys_recorded_at>
+            <sys_updated_by/>
+            <sys_updated_on/>
+            <type>List Layout</type>
+            <update_guid>672830c5cbb7bc50da58db22b790b4df</update_guid>
+            <update_guid_history>672830c5cbb7bc50da58db22b790b4df:-747168666</update_guid_history>
+        </sys_update_version>
+        <sys_metadata_delete action="INSERT_OR_UPDATE">
+            <sys_audit_delete/>
+            <sys_class_name>sys_metadata_delete</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-11-11 16:06:46</sys_created_on>
+            <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+            <sys_id>4497affff67343ca87d7e729924cbba4</sys_id>
+            <sys_metadata>8fc77c851bb7bc50edf3642aab4bcb09</sys_metadata>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>cmdb_ci</sys_name>
+            <sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">9635b5da1b223010edf3642aab4bcbcb</sys_package>
+            <sys_parent display_value="CMDB CI">eb3539da1b223010edf3642aab4bcbf2</sys_parent>
+            <sys_policy/>
+            <sys_scope display_value="Global">global</sys_scope>
+            <sys_scope_delete display_value="">3a08cd4d4e9544da90041791f25d2984</sys_scope_delete>
+            <sys_update_name>sys_ui_list_cmdb_ci_datasilos</sys_update_name>
+            <sys_update_version display_value="sys_ui_list_cmdb_ci_datasilos">a72830c51bb7bc50edf3642aab4bcbdf</sys_update_version>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-11-11 16:06:46</sys_updated_on>
+        </sys_metadata_delete>
+        <sys_ui_list action="DELETE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>cmdb_ci</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by/>
+            <sys_created_on/>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path/>
+            <sys_id>8fc77c851bb7bc50edf3642aab4bcb09</sys_id>
+            <sys_mod_count/>
+            <sys_name>cmdb_ci</sys_name>
+            <sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb">9635b5da1b223010edf3642aab4bcbcb</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Global">global</sys_scope>
+            <sys_update_name/>
+            <sys_updated_by/>
+            <sys_updated_on>2021-11-11 16:06:46</sys_updated_on>
+            <sys_user/>
+            <view display_value="DataSilos" name="datasilos">268b1d0adb849090ba15a35305961902</view>
+            <view_name>datasilos</view_name>
+        </sys_ui_list>
+    </sys_ui_list>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</application>
+        <file_path/>
+        <instance_id>6b513d92dbe2fc100b9d21c4059619eb</instance_id>
+        <instance_name>wildgrubedevparis</instance_name>
+        <name>sys_ui_list_cmdb_ci_datasilos</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_ci" version="2" view="datasilos"&gt;&lt;sys_ui_list action="DELETE"&gt;&lt;average_value&gt;false&lt;/average_value&gt;&lt;element/&gt;&lt;max_value&gt;false&lt;/max_value&gt;&lt;min_value&gt;false&lt;/min_value&gt;&lt;name&gt;cmdb_ci&lt;/name&gt;&lt;parent/&gt;&lt;position/&gt;&lt;relationship/&gt;&lt;sum&gt;false&lt;/sum&gt;&lt;sys_class_name&gt;sys_ui_list&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-11 16:02:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0947f4851bb7bc50edf3642aab4bcb46&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;cmdb_ci&lt;/sys_name&gt;&lt;sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci"&gt;7a52f9f21bbef810edf3642aab4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DataSilosCI WORK IN PROGRESS"&gt;7a52f9f21bbef810edf3642aab4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_list_cmdb_ci_datasilos&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-11 16:02:46&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;view display_value="DataSilos" name="datasilos"&gt;268b1d0adb849090ba15a35305961902&lt;/view&gt;&lt;view_name/&gt;&lt;/sys_ui_list&gt;&lt;sys_update_version action="INSERT_OR_UPDATE"&gt;&lt;action&gt;INSERT_OR_UPDATE&lt;/action&gt;&lt;application display_value="DataSilosCI WORK IN PROGRESS"&gt;7a52f9f21bbef810edf3642aab4bcb8e&lt;/application&gt;&lt;file_path/&gt;&lt;instance_id&gt;6b513d92dbe2fc100b9d21c4059619eb&lt;/instance_id&gt;&lt;instance_name&gt;wildgrubedevparis&lt;/instance_name&gt;&lt;name&gt;sys_ui_list_cmdb_ci_datasilos&lt;/name&gt;&lt;payload&gt;&lt;![CDATA[&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_ui_list parent="" relationship="" sys_domain="global" table="cmdb_ci" version="2" view="datasilos"&gt;&lt;sys_ui_list action="INSERT_OR_UPDATE"&gt;&lt;average_value&gt;false&lt;/average_value&gt;&lt;element/&gt;&lt;max_value&gt;false&lt;/max_value&gt;&lt;min_value&gt;false&lt;/min_value&gt;&lt;name&gt;cmdb_ci&lt;/name&gt;&lt;parent/&gt;&lt;position/&gt;&lt;relationship/&gt;&lt;sum&gt;false&lt;/sum&gt;&lt;sys_class_name&gt;sys_ui_list&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-11 16:02:46&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;0947f4851bb7bc50edf3642aab4bcb46&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;cmdb_ci&lt;/sys_name&gt;&lt;sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci"&gt;7a52f9f21bbef810edf3642aab4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DataSilosCI WORK IN PROGRESS"&gt;7a52f9f21bbef810edf3642aab4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_list_cmdb_ci_datasilos&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-11 16:02:46&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;view display_value="DataSilos" name="datasilos"&gt;268b1d0adb849090ba15a35305961902&lt;/view&gt;&lt;view_name/&gt;&lt;/sys_ui_list&gt;&lt;sys_ui_list action="INSERT_OR_UPDATE"&gt;&lt;average_value&gt;false&lt;/average_value&gt;&lt;element/&gt;&lt;max_value&gt;false&lt;/max_value&gt;&lt;min_value&gt;false&lt;/min_value&gt;&lt;name&gt;cmdb_ci&lt;/name&gt;&lt;parent/&gt;&lt;position/&gt;&lt;relationship/&gt;&lt;sum&gt;false&lt;/sum&gt;&lt;sys_class_name&gt;sys_ui_list&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-11 16:05:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8fc77c851bb7bc50edf3642aab4bcb09&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;cmdb_ci&lt;/sys_name&gt;&lt;sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb"&gt;9635b5da1b223010edf3642aab4bcbcb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_list_cmdb_ci_datasilos&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-11 16:05:06&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;view display_value="DataSilos" name="datasilos"&gt;268b1d0adb849090ba15a35305961902&lt;/view&gt;&lt;view_name/&gt;&lt;/sys_ui_list&gt;&lt;sys_ui_list action="INSERT_OR_UPDATE"&gt;&lt;average_value&gt;false&lt;/average_value&gt;&lt;element/&gt;&lt;max_value&gt;false&lt;/max_value&gt;&lt;min_value&gt;false&lt;/min_value&gt;&lt;name&gt;cmdb_ci&lt;/name&gt;&lt;parent/&gt;&lt;position/&gt;&lt;relationship/&gt;&lt;sum&gt;false&lt;/sum&gt;&lt;sys_class_name&gt;sys_ui_list&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-11 16:05:06&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;8fc77c851bb7bc50edf3642aab4bcb09&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;cmdb_ci&lt;/sys_name&gt;&lt;sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb"&gt;9635b5da1b223010edf3642aab4bcbcb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_ui_list_cmdb_ci_datasilos&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-11 16:05:06&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;view display_value="DataSilos" name="datasilos"&gt;268b1d0adb849090ba15a35305961902&lt;/view&gt;&lt;view_name/&gt;&lt;/sys_ui_list&gt;&lt;/sys_ui_list&gt;&lt;/record_update&gt;]]&gt;&lt;/payload&gt;&lt;payload_hash&gt;-747168666&lt;/payload_hash&gt;&lt;record_name&gt;Configuration Item&lt;/record_name&gt;&lt;reverted_from/&gt;&lt;source&gt;222c80221b133010edf3642aab4bcb48&lt;/source&gt;&lt;source_table&gt;sys_upgrade_history&lt;/source_table&gt;&lt;state&gt;current&lt;/state&gt;&lt;sys_created_by/&gt;&lt;sys_created_on&gt;2021-10-22 08:13:56&lt;/sys_created_on&gt;&lt;sys_id&gt;a72830c51bb7bc50edf3642aab4bcbdf&lt;/sys_id&gt;&lt;sys_mod_count/&gt;&lt;sys_recorded_at&gt;17ca7104da00000000&lt;/sys_recorded_at&gt;&lt;sys_updated_by/&gt;&lt;sys_updated_on/&gt;&lt;type&gt;List Layout&lt;/type&gt;&lt;update_guid&gt;672830c5cbb7bc50da58db22b790b4df&lt;/update_guid&gt;&lt;update_guid_history&gt;672830c5cbb7bc50da58db22b790b4df:-747168666&lt;/update_guid_history&gt;&lt;/sys_update_version&gt;&lt;sys_metadata_delete action="INSERT_OR_UPDATE"&gt;&lt;sys_audit_delete/&gt;&lt;sys_class_name&gt;sys_metadata_delete&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-11 16:06:46&lt;/sys_created_on&gt;&lt;sys_db_object display_value="" name="sys_ui_list"&gt;sys_ui_list&lt;/sys_db_object&gt;&lt;sys_id&gt;4497affff67343ca87d7e729924cbba4&lt;/sys_id&gt;&lt;sys_metadata&gt;8fc77c851bb7bc50edf3642aab4bcb09&lt;/sys_metadata&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;cmdb_ci&lt;/sys_name&gt;&lt;sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb"&gt;9635b5da1b223010edf3642aab4bcbcb&lt;/sys_package&gt;&lt;sys_parent display_value="CMDB CI"&gt;eb3539da1b223010edf3642aab4bcbf2&lt;/sys_parent&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_scope_delete display_value=""&gt;3a08cd4d4e9544da90041791f25d2984&lt;/sys_scope_delete&gt;&lt;sys_update_name&gt;sys_ui_list_cmdb_ci_datasilos&lt;/sys_update_name&gt;&lt;sys_update_version display_value="sys_ui_list_cmdb_ci_datasilos"&gt;a72830c51bb7bc50edf3642aab4bcbdf&lt;/sys_update_version&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-11 16:06:46&lt;/sys_updated_on&gt;&lt;/sys_metadata_delete&gt;&lt;sys_ui_list action="DELETE"&gt;&lt;average_value&gt;false&lt;/average_value&gt;&lt;element/&gt;&lt;max_value&gt;false&lt;/max_value&gt;&lt;min_value&gt;false&lt;/min_value&gt;&lt;name&gt;cmdb_ci&lt;/name&gt;&lt;parent/&gt;&lt;position/&gt;&lt;relationship/&gt;&lt;sum&gt;false&lt;/sum&gt;&lt;sys_class_name&gt;sys_ui_list&lt;/sys_class_name&gt;&lt;sys_created_by/&gt;&lt;sys_created_on/&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path/&gt;&lt;sys_id&gt;8fc77c851bb7bc50edf3642aab4bcb09&lt;/sys_id&gt;&lt;sys_mod_count/&gt;&lt;sys_name&gt;cmdb_ci&lt;/sys_name&gt;&lt;sys_package display_value="Configuration Management (CMDB)" source="com.snc.cmdb"&gt;9635b5da1b223010edf3642aab4bcbcb&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name/&gt;&lt;sys_updated_by/&gt;&lt;sys_updated_on&gt;2021-11-11 16:06:46&lt;/sys_updated_on&gt;&lt;sys_user/&gt;&lt;view display_value="DataSilos" name="datasilos"&gt;268b1d0adb849090ba15a35305961902&lt;/view&gt;&lt;view_name&gt;datasilos&lt;/view_name&gt;&lt;/sys_ui_list&gt;&lt;/sys_ui_list&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>895383847</payload_hash>
+        <record_name>Configuration Item</record_name>
+        <reverted_from/>
+        <source>872ee8381b0f3450edf3642aab4bcbdd</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-11 16:06:46</sys_created_on>
+        <sys_id>232830c51bb7bc50edf3642aab4bcbe9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d0fc063220000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-11 16:06:46</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>2b2830c599b7bc50ff24813309be36e8</update_guid>
+        <update_guid_history>2b2830c599b7bc50ff24813309be36e8:895383847,672830c5cbb7bc50da58db22b790b4df:-747168666</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-11 16:16:28</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>6ed8ab59168448fca959149757180190</sys_id>
+        <sys_metadata>0947f4851bb7bc50edf3642aab4bcb46</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>cmdb_ci</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_parent display_value="CMDB CI">eb3539da1b223010edf3642aab4bcbf2</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">05511f61792842c48230507153c77c41</sys_scope_delete>
+        <sys_update_name>sys_ui_list_cmdb_ci_datasilos</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_cmdb_ci_datasilos">232830c51bb7bc50edf3642aab4bcbe9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-11 16:16:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

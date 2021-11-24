@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_datasilosci.IsActive</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description>Returns if the application is active.</description>
+        <name>IsActive</name>
+        <script><![CDATA[function IsActive()
+{
+	return x_snc_devtools.GetBoolValue(gs.getProperty('x_snc_datasilosci.active');
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-12 12:43:01</sys_created_on>
+        <sys_id>b82399911b3f3090edf3642aab4bcb8a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IsActive</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_update_name>sys_script_include_b82399911b3f3090edf3642aab4bcb8a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-12 12:43:01</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</application>
+        <file_path/>
+        <instance_id>6b513d92dbe2fc100b9d21c4059619eb</instance_id>
+        <instance_name>wildgrubedevparis</instance_name>
+        <name>sys_script_include_b82399911b3f3090edf3642aab4bcb8a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_snc_datasilosci.IsActive&lt;/api_name&gt;&lt;caller_access&gt;1&lt;/caller_access&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;Returns if the application is active.&lt;/description&gt;&lt;name&gt;IsActive&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function IsActive()
+{
+	return x_snc_devtools.GetBoolValue(gs.getProperty('x_snc_datasilosci.active');
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-11-12 12:43:01&lt;/sys_created_on&gt;&lt;sys_id&gt;b82399911b3f3090edf3642aab4bcb8a&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;IsActive&lt;/sys_name&gt;&lt;sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci"&gt;7a52f9f21bbef810edf3642aab4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DataSilosCI WORK IN PROGRESS"&gt;7a52f9f21bbef810edf3642aab4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_b82399911b3f3090edf3642aab4bcb8a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-12 12:43:01&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>980968431</payload_hash>
+        <record_name>IsActive</record_name>
+        <reverted_from/>
+        <source>f38161cd1bfbbc50edf3642aab4bcbc2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-12 12:43:01</sys_created_on>
+        <sys_id>f42399911b3f3090edf3642aab4bcb8f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d142c35e00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-12 12:43:01</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>7c239991763f3090174099cb2b63b08e</update_guid>
+        <update_guid_history>7c239991763f3090174099cb2b63b08e:980968431</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-12 12:43:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>67dc545889004036b79b7405c7bc8391</sys_id>
+        <sys_metadata>b82399911b3f3090edf3642aab4bcb8a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>IsActive</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">05511f61792842c48230507153c77c41</sys_scope_delete>
+        <sys_update_name>sys_script_include_b82399911b3f3090edf3642aab4bcb8a</sys_update_name>
+        <sys_update_version display_value="sys_script_include_b82399911b3f3090edf3642aab4bcb8a">f42399911b3f3090edf3642aab4bcb8f</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-12 12:43:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

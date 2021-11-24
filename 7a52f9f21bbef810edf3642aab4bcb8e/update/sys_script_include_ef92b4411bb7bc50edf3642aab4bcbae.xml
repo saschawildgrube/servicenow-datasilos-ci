@@ -2,33 +2,27 @@
     <sys_script_include action="INSERT_OR_UPDATE">
         <access>public</access>
         <active>true</active>
-        <api_name>x_snc_datasilosci.AppSetProperty</api_name>
+        <api_name>x_snc_datasilosci.AppSetDefaults</api_name>
         <caller_access>1</caller_access>
         <client_callable>false</client_callable>
-        <description>Sets a system property of this application.</description>
-        <name>AppSetProperty</name>
-        <script><![CDATA[function AppSetProperty(strSuffix,vValue)
+        <description>Sets all system properties to default values.</description>
+        <name>AppSetDefaults</name>
+        <script><![CDATA[function AppSetDefaults()
 {
-	var strName = 'x_snc_datasilosci.'+strSuffix;
-	if (IsProperty(strName) == false)
-	{
-		return false;
-	}
-	gs.setProperty(strName,vValue);
-	return true;
+	AppSetProperty('active','true');
 }
 ]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-09-30 11:39:08</sys_created_on>
-        <sys_id>7528a39bdb7ebc104647dad1f3961980</sys_id>
+        <sys_created_on>2021-11-11 15:42:27</sys_created_on>
+        <sys_id>ef92b4411bb7bc50edf3642aab4bcbae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>AppSetProperty</sys_name>
+        <sys_name>AppSetDefaults</sys_name>
         <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
         <sys_policy/>
         <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
-        <sys_update_name>sys_script_include_7528a39bdb7ebc104647dad1f3961980</sys_update_name>
+        <sys_update_name>sys_script_include_ef92b4411bb7bc50edf3642aab4bcbae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-09-30 11:39:08</sys_updated_on>
+        <sys_updated_on>2021-11-11 15:42:27</sys_updated_on>
     </sys_script_include>
 </record_update>
