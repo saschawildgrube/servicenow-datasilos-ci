@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="DELETE">
+        <active>true</active>
+        <business_calendar/>
+        <condition/>
+        <conditional>false</conditional>
+        <entered_time/>
+        <name>DataSilos - Maintenance - cmdb_ci</name>
+        <offset/>
+        <offset_type/>
+        <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:10:00</run_period>
+        <run_start>2021-09-30 11:44:57</run_start>
+        <run_time>1969-12-31 22:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[var grRecords = new GlideRecord('cmdb_ci');
+x_snc_datasilos.Maintenance(grRecords);]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-09-30 11:44:57</sys_created_on>
+        <sys_id>4f79a7d7dbbebc104647dad1f3961932</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>DataSilos - Maintenance - cmdb_ci</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_update_name>sysauto_script_4f79a7d7dbbebc104647dad1f3961932</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-24 12:59:04</sys_updated_on>
+        <time_zone/>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</application>
+        <file_path/>
+        <instance_id>6b513d92dbe2fc100b9d21c4059619eb</instance_id>
+        <instance_name>wildgrubedevparis</instance_name>
+        <name>sysauto_script_4f79a7d7dbbebc104647dad1f3961932</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sysauto_script"&gt;&lt;sysauto_script action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;business_calendar/&gt;&lt;condition/&gt;&lt;conditional&gt;false&lt;/conditional&gt;&lt;entered_time/&gt;&lt;name&gt;DataSilos - Maintenance - cmdb_ci&lt;/name&gt;&lt;offset/&gt;&lt;offset_type/&gt;&lt;run_as display_value="System Administrator"&gt;6816f79cc0a8016401c5a33be04be441&lt;/run_as&gt;&lt;run_as_tz/&gt;&lt;run_dayofmonth&gt;1&lt;/run_dayofmonth&gt;&lt;run_dayofweek&gt;1&lt;/run_dayofweek&gt;&lt;run_period&gt;1970-01-01 00:10:00&lt;/run_period&gt;&lt;run_start&gt;2021-09-30 11:44:57&lt;/run_start&gt;&lt;run_time&gt;1969-12-31 22:00:00&lt;/run_time&gt;&lt;run_type&gt;periodically&lt;/run_type&gt;&lt;script&gt;&lt;![CDATA[var grRecords = new GlideRecord('cmdb_ci');
+x_snc_datasilos.Maintenance(grRecords);]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sysauto_script&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2021-09-30 11:44:57&lt;/sys_created_on&gt;&lt;sys_id&gt;4f79a7d7dbbebc104647dad1f3961932&lt;/sys_id&gt;&lt;sys_mod_count&gt;5&lt;/sys_mod_count&gt;&lt;sys_name&gt;DataSilos - Maintenance - cmdb_ci&lt;/sys_name&gt;&lt;sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci"&gt;7a52f9f21bbef810edf3642aab4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DataSilosCI WORK IN PROGRESS"&gt;7a52f9f21bbef810edf3642aab4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sysauto_script_4f79a7d7dbbebc104647dad1f3961932&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2021-11-24 12:59:04&lt;/sys_updated_on&gt;&lt;time_zone/&gt;&lt;upgrade_safe&gt;false&lt;/upgrade_safe&gt;&lt;/sysauto_script&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>676004760</payload_hash>
+        <record_name>DataSilos - Maintenance - cmdb_ci</record_name>
+        <reverted_from/>
+        <source>245331761bbef810edf3642aab4bcbdb</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-24 12:59:04</sys_created_on>
+        <sys_id>81e9cb011b448510edf3642aab4bcb34</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>17d520737700000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-24 12:59:04</sys_updated_on>
+        <type>Scheduled Script Execution</type>
+        <update_guid>c9e9cb0102448510255ca3a7ddd2b833</update_guid>
+        <update_guid_history>c9e9cb0102448510255ca3a7ddd2b833:676004760,5823707d9347b8508b43ba5ad366ce2f:-1105160540,f59d2cb93f07b85056148b3f0e6d2271:1559265496,d1ebe83dd1c3b850a7f23ecc295a235c:-2009137288,76ab683d25c3b85031adf34d66dcd842:557513047,4f79a7d742bebc10d9157d4e8de2b935:1785203926</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-24 12:59:28</sys_created_on>
+        <sys_db_object display_value="" name="sysauto_script">sysauto_script</sys_db_object>
+        <sys_id>17a31c48059f45dc821864c97bf403c4</sys_id>
+        <sys_metadata>4f79a7d7dbbebc104647dad1f3961932</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataSilos - Maintenance - cmdb_ci</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">05511f61792842c48230507153c77c41</sys_scope_delete>
+        <sys_update_name>sysauto_script_4f79a7d7dbbebc104647dad1f3961932</sys_update_name>
+        <sys_update_version display_value="sysauto_script_4f79a7d7dbbebc104647dad1f3961932">81e9cb011b448510edf3642aab4bcb34</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-24 12:59:28</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

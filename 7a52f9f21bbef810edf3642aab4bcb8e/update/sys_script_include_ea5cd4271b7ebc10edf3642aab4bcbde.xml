@@ -18,8 +18,10 @@
 
 	if (strTable == 'cmdb_ci')
 	{
-		//x_snc_datasilos.RecordSetGlobalValue(record,true);
-		//Log('DataSilosRecordUpdate: '+RenderValue(record));
+		x_snc_datasilos.RecordSetGhostValue(record,true);
+		x_snc_datasilos.RecordSetGlobalValue(record,false);
+		
+		Log('DataSilosRecordUpdate: '+RenderValue(record));
 		bResult = true;
 	}
 	
@@ -29,13 +31,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-30 15:27:11</sys_created_on>
         <sys_id>ea5cd4271b7ebc10edf3642aab4bcbde</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>16</sys_mod_count>
         <sys_name>DataSilosRecordUpdate</sys_name>
         <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
         <sys_policy/>
         <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
         <sys_update_name>sys_script_include_ea5cd4271b7ebc10edf3642aab4bcbde</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-11 12:25:48</sys_updated_on>
+        <sys_updated_on>2021-11-24 17:19:40</sys_updated_on>
     </sys_script_include>
 </record_update>

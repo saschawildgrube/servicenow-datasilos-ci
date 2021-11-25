@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Checks if all ACLs are correctly configured for table: [cmdb_ci]
+</description>
+        <display_name>DataSilos - Check ACLs</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>2</order>
+        <snapshot/>
+        <step_config display_value="DataSilos - Check ACLs">5f42f662db23d810ba15a353059619cd</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-24 13:02:23</sys_created_on>
+        <sys_id>5a9a47851b448510edf3642aab4bcbce</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataSilos - Check ACLs</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_update_name>sys_atf_step_5a9a47851b448510edf3642aab4bcbce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-24 13:02:23</sys_updated_on>
+        <table/>
+        <test display_value="DataSilosCI - Installation">af88c30d1b048510edf3642aab4bcb39</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=5a9a47851b448510edf3642aab4bcbce"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>5a9a47851b448510edf3642aab4bcbce</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-24 13:02:24</sys_created_on>
+        <sys_id>b5aa0f851b448510edf3642aab4bcbd8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-24 13:02:24</sys_updated_on>
+        <value>cmdb_ci</value>
+        <variable display_value="">36b2fe62db23d810ba15a3530596192f</variable>
+    </sys_variable_value>
+</record_update>

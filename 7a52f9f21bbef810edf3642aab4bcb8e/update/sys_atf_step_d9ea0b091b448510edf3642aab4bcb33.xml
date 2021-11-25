@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_step">
+    <sys_atf_step action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <copied_from/>
+        <description>Run Server Side Validation Script</description>
+        <display_name>Run Server Side Script</display_name>
+        <inputs/>
+        <mugshots_cache_json/>
+        <notes/>
+        <order>1</order>
+        <snapshot/>
+        <step_config display_value="Run Server Side Script">41de4a935332120028bc29cac2dc349a</step_config>
+        <sys_class_name>sys_atf_step</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-24 13:03:47</sys_created_on>
+        <sys_id>d9ea0b091b448510edf3642aab4bcb33</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_name>Run Server Side Script</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_update_name>sys_atf_step_d9ea0b091b448510edf3642aab4bcb33</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-25 10:43:02</sys_updated_on>
+        <table/>
+        <test display_value="DataSilosCI - cmdb_ci">08da03091b448510edf3642aab4bcba3</test>
+        <timeout/>
+        <warning_message/>
+    </sys_atf_step>
+    <sys_variable_value action="delete_multiple" query="document_key=d9ea0b091b448510edf3642aab4bcb33"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d9ea0b091b448510edf3642aab4bcb33</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-24 13:03:47</sys_created_on>
+        <sys_id>1afa8f091b448510edf3642aab4bcb16</sys_id>
+        <sys_mod_count>20</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-25 10:43:02</sys_updated_on>
+        <value>(function(outputs, steps, stepResult, assertEqual)&#13;
+{&#13;
+	var test = new x_snc_devtools.TestAPI(outputs, steps, stepResult, assertEqual);&#13;
+	&#13;
+	test.SetResult(true);&#13;
+&#13;
+	AppSetProperty('active','true'); &#13;
+	//AppSetProperty('tables.incident.active','true'); &#13;
+	//AppSetProperty('tables.incident.columns.whitelist_trigger.sys_user_group','assignment_group'); &#13;
+	//AppSetProperty('tables.incident.columns.instant_access.sys_user','opened_by,caller_id'); &#13;
+	&#13;
+	&#13;
+	var testdata = new x_snc_datasilos.DataSilosTestDataAPI('_ATF_DATASILOS_');&#13;
+&#13;
+	var strUserSentinel = testdata.CreateUser('SENTINEL',['itil','x_snc_datasilos.sentinel']);&#13;
+	var strUserSpectator = testdata.CreateUser('SPECTATOR',[]);&#13;
+	var strUserItil = testdata.CreateUser('ITIL',['itil']);&#13;
+	var strUserAlphaMember = testdata.CreateUser('ALPHA_MEMBER',['itil']);&#13;
+	var strUserAlphaFulfiller = testdata.CreateUser('ALPHA_FULFILLER',['itil']);&#13;
+	var strUserAlphaSupervisor = testdata.CreateUser('ALPHA_SUPERVISOR',['itil']);&#13;
+	var strGroupAlphaMember = testdata.CreateGroup('ALPHA_MEMBER',['ALPHA_MEMBER']);&#13;
+	var strGroupAlphaFulfiller = testdata.CreateGroup('ALPHA_FULFILLER',['ALPHA_FULFILLER']);&#13;
+	var strGroupAlphaSupervisor = testdata.CreateGroup('ALPHA_SUPERVISOR',['ALPHA_SUPERVISOR']);&#13;
+	var strSiloAlpha = testdata.CreateSilo('ALPHA',['ALPHA_MEMBER'],['ALPHA_FULFILLER'],['ALPHA_SUPERVISOR']);&#13;
+	&#13;
+&#13;
+	var test = new x_snc_devtools.TestAPI(outputs, steps, stepResult, assertEqual);&#13;
+	&#13;
+	&#13;
+	var grCI = new GlideRecord('cmdb_ci');&#13;
+	grCI.initialize();&#13;
+	grCI.name = testdata.GetPrefix()+'CI';&#13;
+	x_snc_datasilos.RecordSetSupervisorWhitelistValue(grCI,strSiloAlpha);&#13;
+	//x_snc_datasilos.RecordSetFulfillerWhitelistValue(grCI,strSiloAlpha);&#13;
+	var strCI = grCI.insert();&#13;
+&#13;
+	var grServerCI = new GlideRecord('cmdb_ci_server');&#13;
+	grServerCI.initialize();&#13;
+	grServerCI.name = testdata.GetPrefix()+'CI_SERVER';&#13;
+	x_snc_datasilos.RecordSetSupervisorWhitelistValue(grServerCI,strSiloAlpha);&#13;
+	//x_snc_datasilos.RecordSetFulfillerWhitelistValue(grServerCI,strSiloAlpha);&#13;
+	var strServerCI = grServerCI.insert();&#13;
+	&#13;
+	&#13;
+	&#13;
+	test.Log('Check a record in cmdb_ci via cmdb_ci\n');&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserSentinel,       'cmdb_ci','',strCI,true);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserSpectator,      'cmdb_ci','',strCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserItil,           'cmdb_ci','',strCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserAlphaMember,    'cmdb_ci','',strCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserAlphaFulfiller, 'cmdb_ci','',strCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserAlphaSupervisor,'cmdb_ci','',strCI,true);&#13;
+	&#13;
+	test.Log('Check a record in cmdb_ci_server via cmdb_ci\n');&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserSentinel,       'cmdb_ci','',strServerCI,true);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserSpectator,      'cmdb_ci','',strServerCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserItil,           'cmdb_ci','',strServerCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserAlphaMember,    'cmdb_ci','',strServerCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserAlphaFulfiller, 'cmdb_ci','',strServerCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserAlphaSupervisor,'cmdb_ci','',strServerCI,true);		&#13;
+&#13;
+	test.Log('Check a record in cmdb_ci_server via cmdb_ci_server\n');&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserSentinel,       'cmdb_ci_server','',strServerCI,true);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserSpectator,      'cmdb_ci_server','',strServerCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserItil,           'cmdb_ci_server','',strServerCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserAlphaMember,    'cmdb_ci_server','',strServerCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserAlphaFulfiller, 'cmdb_ci_server','',strServerCI,false);&#13;
+	test.TestCase_IsRecordAccessibleByUser(strUserAlphaSupervisor,'cmdb_ci_server','',strServerCI,true);	&#13;
+&#13;
+	test.Log(x_snc_devtools.RenderValue(testdata.GetAllData()));&#13;
+&#13;
+	return test.GetResult();&#13;
+	&#13;
+})(outputs, steps, stepResult, assertEqual);</value>
+        <variable display_value="">989d9e235324220002c6435723dc3484</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_atf_step</document>
+        <document_key>d9ea0b091b448510edf3642aab4bcb33</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-24 13:03:47</sys_created_on>
+        <sys_id>56fa8f091b448510edf3642aab4bcb16</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-24 13:03:47</sys_updated_on>
+        <value>3.1</value>
+        <variable display_value="">42f2564b73031300440211d8faf6a777</variable>
+    </sys_variable_value>
+</record_update>

@@ -7,30 +7,29 @@
         <entered_time/>
         <name>DataSilos - Maintenance - cmdb_ci</name>
         <offset/>
-        <offset_type/>
+        <offset_type>0</offset_type>
         <run_as display_value="System Administrator">6816f79cc0a8016401c5a33be04be441</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>
         <run_period>1970-01-01 00:10:00</run_period>
-        <run_start>2021-09-30 11:44:57</run_start>
+        <run_start>2021-11-24 13:00:06</run_start>
         <run_time>1969-12-31 22:00:00</run_time>
         <run_type>periodically</run_type>
         <script><![CDATA[var grRecords = new GlideRecord('cmdb_ci');
-x_snc_datasilos.Maintenance(grRecords);
-]]></script>
+x_snc_datasilos.Maintenance(grRecords);]]></script>
         <sys_class_name>sysauto_script</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-09-30 11:44:57</sys_created_on>
-        <sys_id>4f79a7d7dbbebc104647dad1f3961932</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_created_on>2021-11-24 13:00:06</sys_created_on>
+        <sys_id>842a8b811b448510edf3642aab4bcb5d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>DataSilos - Maintenance - cmdb_ci</sys_name>
         <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
         <sys_policy/>
         <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
-        <sys_update_name>sysauto_script_4f79a7d7dbbebc104647dad1f3961932</sys_update_name>
+        <sys_update_name>sysauto_script_842a8b811b448510edf3642aab4bcb5d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-10-07 16:53:02</sys_updated_on>
+        <sys_updated_on>2021-11-24 13:00:06</sys_updated_on>
         <time_zone/>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>

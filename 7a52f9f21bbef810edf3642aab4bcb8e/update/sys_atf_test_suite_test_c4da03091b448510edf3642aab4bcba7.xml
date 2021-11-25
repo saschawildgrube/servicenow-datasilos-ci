@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_atf_test_suite_test">
+    <sys_atf_test_suite_test action="INSERT_OR_UPDATE">
+        <abort_on_failure>false</abort_on_failure>
+        <order>1000</order>
+        <sys_class_name>sys_atf_test_suite_test</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-11-24 13:03:05</sys_created_on>
+        <sys_id>c4da03091b448510edf3642aab4bcba7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>08da03091b448510edf3642aab4bcba3</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_update_name>sys_atf_test_suite_test_c4da03091b448510edf3642aab4bcba7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-11-24 13:04:38</sys_updated_on>
+        <test display_value="DataSilosCI - cmdb_ci">08da03091b448510edf3642aab4bcba3</test>
+        <test_suite display_value="DataSilosCI">bd284b891b048510edf3642aab4bcb19</test_suite>
+    </sys_atf_test_suite_test>
+</record_update>
