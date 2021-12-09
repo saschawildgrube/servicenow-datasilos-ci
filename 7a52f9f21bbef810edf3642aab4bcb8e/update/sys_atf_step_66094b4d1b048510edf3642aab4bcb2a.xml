@@ -10,7 +10,7 @@
         <notes/>
         <order>2</order>
         <snapshot/>
-        <step_config display_value="DataSilos - Check table implementation">88b932e8db582810ba15a35305961982</step_config>
+        <step_config/>
         <sys_class_name>sys_atf_step</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-11-24 12:55:42</sys_created_on>
@@ -29,32 +29,4 @@
         <warning_message/>
     </sys_atf_step>
     <sys_variable_value action="delete_multiple" query="document_key=66094b4d1b048510edf3642aab4bcb2a"/>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_atf_step</document>
-        <document_key>66094b4d1b048510edf3642aab4bcb2a</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-24 12:55:42</sys_created_on>
-        <sys_id>f719078d1b048510edf3642aab4bcbdc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-24 12:55:42</sys_updated_on>
-        <value>cmdb_ci</value>
-        <variable display_value="">ae5bba2cdb582810ba15a3530596193b</variable>
-    </sys_variable_value>
-    <sys_variable_value action="INSERT_OR_UPDATE">
-        <document>sys_atf_step</document>
-        <document_key>66094b4d1b048510edf3642aab4bcb2a</document_key>
-        <order>100</order>
-        <sys_class_name>sys_variable_value</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2021-11-24 12:55:42</sys_created_on>
-        <sys_id>fb19078d1b048510edf3642aab4bcbdc</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-11-24 12:55:42</sys_updated_on>
-        <value>7a52f9f21bbef810edf3642aab4bcb8e</value>
-        <variable display_value="">4094311cdb87ac10ba15a35305961974</variable>
-    </sys_variable_value>
 </record_update>
