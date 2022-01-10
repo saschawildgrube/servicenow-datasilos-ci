@@ -42,7 +42,7 @@
         <update_guid_history>4a5313d3f476bc109bb4c4cea8e3b45a:-1348100467</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="cmdb_ci.x_snc_datasilosci_last_maintenance.x_snc_datasilos.manager">cef42b97db7ebc104647dad1f39619c4</sys_audit_delete>
+        <sys_audit_delete display_value="">cef42b97db7ebc104647dad1f39619c4</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-09-30 11:25:14</sys_created_on>
