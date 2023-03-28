@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="DELETE">
+        <access>public</access>
+        <active>true</active>
+        <api_name>x_snc_datasilosci.DataSilosGetStatus</api_name>
+        <caller_access>1</caller_access>
+        <client_callable>false</client_callable>
+        <description>The DataSilosGetStatus is called by the DataSilos extension point instance class and returns the plugin_status object with additional status information to be displayed on the Status page.</description>
+        <name>DataSilosGetStatus</name>
+        <script><![CDATA[function DataSilosGetStatus(status)
+{
+	var SetValue = x_snc_devtools.SetValue;
+	var GetAllSupportedTables = x_snc_datasilos.GetAllSupportedTables;
+	
+	// Define a new column 'demo'
+	SetValue('Demo',status,'columns','demo','header');
+	
+	var aTables = GetAllSupportedTables();
+	for (var nTable = 0; nTable < aTables.length; nTable++)
+	{
+		var strTable = aTable[nTable];
+		// Add some meaningful status information or useful links for each table:
+		SetValue('Add some meaningful information about table '+strTable,status,'tables',strTable,'demo');
+	}
+	
+	return status;
+}]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 16:24:04</sys_created_on>
+        <sys_id>30124499db8f19106a03dad1f3961937</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataSilosGetStatus</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_update_name>sys_script_include_30124499db8f19106a03dad1f3961937</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 16:24:04</sys_updated_on>
+    </sys_script_include>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</application>
+        <file_path/>
+        <instance_id>01bfa2ffdb5ecd104d2bac44d496195a</instance_id>
+        <instance_name>wildgrubetestsandiego</instance_name>
+        <name>sys_script_include_30124499db8f19106a03dad1f3961937</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_script_include"&gt;&lt;sys_script_include action="INSERT_OR_UPDATE"&gt;&lt;access&gt;public&lt;/access&gt;&lt;active&gt;true&lt;/active&gt;&lt;api_name&gt;x_snc_datasilosci.DataSilosGetStatus&lt;/api_name&gt;&lt;caller_access&gt;1&lt;/caller_access&gt;&lt;client_callable&gt;false&lt;/client_callable&gt;&lt;description&gt;The DataSilosGetStatus is called by the DataSilos extension point instance class and returns the plugin_status object with additional status information to be displayed on the Status page.&lt;/description&gt;&lt;name&gt;DataSilosGetStatus&lt;/name&gt;&lt;script&gt;&lt;![CDATA[function DataSilosGetStatus(status)
+{
+	var SetValue = x_snc_devtools.SetValue;
+	var GetAllSupportedTables = x_snc_datasilos.GetAllSupportedTables;
+	
+	// Define a new column 'demo'
+	SetValue('Demo',status,'columns','demo','header');
+	
+	var aTables = GetAllSupportedTables();
+	for (var nTable = 0; nTable &lt; aTables.length; nTable++)
+	{
+		var strTable = aTable[nTable];
+		// Add some meaningful status information or useful links for each table:
+		SetValue('Add some meaningful information about table '+strTable,status,'tables',strTable,'demo');
+	}
+	
+	return status;
+}]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_include&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2022-11-07 16:24:04&lt;/sys_created_on&gt;&lt;sys_id&gt;30124499db8f19106a03dad1f3961937&lt;/sys_id&gt;&lt;sys_mod_count&gt;0&lt;/sys_mod_count&gt;&lt;sys_name&gt;DataSilosGetStatus&lt;/sys_name&gt;&lt;sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci"&gt;7a52f9f21bbef810edf3642aab4bcb8e&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="DataSilosCI WORK IN PROGRESS"&gt;7a52f9f21bbef810edf3642aab4bcb8e&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_include_30124499db8f19106a03dad1f3961937&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2022-11-07 16:24:04&lt;/sys_updated_on&gt;&lt;/sys_script_include&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>-468295223</payload_hash>
+        <record_name>DataSilosGetStatus</record_name>
+        <reverted_from/>
+        <source>902d6f89db8b19106a03dad1f396191e</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 16:24:04</sys_created_on>
+        <sys_id>74124499db8f19106a03dad1f3961939</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18452e7f5c00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 16:24:04</sys_updated_on>
+        <type>Script Include</type>
+        <update_guid>f8124499e18f1910ab7d39ec5c6b4b38</update_guid>
+        <update_guid_history>f8124499e18f1910ab7d39ec5c6b4b38:-468295223</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-07 16:25:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_script_include">sys_script_include</sys_db_object>
+        <sys_id>24bb2c4346b444578f3661b1dd5d7be1</sys_id>
+        <sys_metadata>30124499db8f19106a03dad1f3961937</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>DataSilosGetStatus</sys_name>
+        <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
+        <sys_scope_delete display_value="">05511f61792842c48230507153c77c41</sys_scope_delete>
+        <sys_update_name>sys_script_include_30124499db8f19106a03dad1f3961937</sys_update_name>
+        <sys_update_version display_value="sys_script_include_30124499db8f19106a03dad1f3961937">74124499db8f19106a03dad1f3961939</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-07 16:25:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

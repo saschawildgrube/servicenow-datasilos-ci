@@ -9,19 +9,33 @@
         <name>DataSilosGetStatus</name>
         <script><![CDATA[function DataSilosGetStatus(status)
 {
+	var SetValue = x_snc_devtools.SetValue;
+	var GetAllSupportedTables = x_snc_datasilos.GetAllSupportedTables;
+	
+	// Define a new column 'demo'
+	SetValue('Demo',status,'columns','demo','header');
+	
+	var aTables = GetAllSupportedTables();
+	for (var nTable = 0; nTable < aTables.length; nTable++)
+	{
+		var strTable = aTables[nTable];
+		// Add some meaningful status information or useful links for each table:
+		SetValue('Add some meaningful information about table '+strTable,status,'tables',strTable,'demo');
+	}
+	
 	return status;
 }]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2022-10-05 12:25:25</sys_created_on>
-        <sys_id>9bfecdeadb129110f359c1911596194c</sys_id>
+        <sys_created_on>2022-11-07 16:25:14</sys_created_on>
+        <sys_id>b1528899db8f19106a03dad1f3961997</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>DataSilosGetStatus</sys_name>
         <sys_package display_value="DataSilosCI WORK IN PROGRESS" source="x_snc_datasilosci">7a52f9f21bbef810edf3642aab4bcb8e</sys_package>
         <sys_policy/>
         <sys_scope display_value="DataSilosCI WORK IN PROGRESS">7a52f9f21bbef810edf3642aab4bcb8e</sys_scope>
-        <sys_update_name>sys_script_include_9bfecdeadb129110f359c1911596194c</sys_update_name>
+        <sys_update_name>sys_script_include_b1528899db8f19106a03dad1f3961997</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-10-05 12:25:25</sys_updated_on>
+        <sys_updated_on>2022-11-07 16:25:14</sys_updated_on>
     </sys_script_include>
 </record_update>
